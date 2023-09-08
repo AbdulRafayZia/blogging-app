@@ -1,0 +1,83 @@
+/* .Container {
+    position: relative;
+    background-color: rgba(225, 131, 22, 0.53);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    transform: translate(0, -50%);
+    width: 100%;
+    height: 100vh;
+    margin-left: 300px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  .Container>*{
+    margin: 10px 0;
+  }
+  
+  .heading {
+    font-size: 20px;
+    margin-left: 40px;
+    color: rgb(85, 85, 85);
+  }
+  #name,
+  #email,
+  #password
+  {
+    width: calc(100% - 200px);
+    margin: 5px 20px;
+    border-radius: 20px;
+  }
+  #name,
+  #email,
+  #password,
+  #login {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+  }
+  .Create,
+  .login{
+    background-color: teal;
+    align-self: center;
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(30, 30, 30, 0.842);
+    padding:10px ;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 230px;
+    outline: none;
+  }
+  #password{
+    margin-top: 20px;
+  }
+  
+
+  .footer {
+    align-self: flex-start;
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+    margin-left: 40px;
+  }
+  
+  #a {
+    color: #54BEB8;
+  }
+  
+  /* Tablets [769px -> 1023px] */
+  /* @media only screen and (max-width: 1023px) {
+    .Container {
+      left: 0;
+      width: 100%;
+      padding: 0 20px;
+    }
+  } */ 
